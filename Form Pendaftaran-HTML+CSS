@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css">
+body{
+	background-color: teal;
+}
+h1{
+	color: white;
+	text-align: center;
+	font-family: "Arial";
+}
+h2{
+	text-align: right;
+	font-family: "Times New Roman";
+	color: white;
+	font-size: 20px;
+}
+h3{
+	text-align: right;
+	font-family: "Times New Roman";
+	color: white;
+	font-size: 20px;
+}
+h4{
+	text-align: center;
+	font-family: "Times New Roman";
+	color: black;
+	font-size: 30px;
+}
+div{
+	background-color: lightgrey;
+	width: 900px;
+	border: 15px solid teal;
+	padding: 50px;
+	margin: 20px; 
+	font-family: "Arial";
+}
+input[type=text],select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+input[type=submit] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+</style>
+</head>
+<body>
+<h2>Nama: Neta Hardy Astuty</h2>
+<h3>NIM : 182410101050</h3>
+<hr>
+<h1><b>FORM PENDAFTARAN ANGGOTA ORGANISASI</b></h1>
+<hr>
+<div><h4>Data Pribadi</h4>
+		<label for="Nama Lengkap">Nama Lengkap</label>
+		<input type="text" id="Nama Lengkap" name="Nama Lengkap" placeholder="Masukan nama Anda">
+		<label for="NIM">NIM</label>
+		<input type="text" id="NIM" name="NIM" placeholder="Masukan NIM Anda">
+		<label for="ttl">Tempat/Tgl Lahir</label>
+		<input type="text" id="ttl"name="ttl" placeholder="Masukan tempat,tanggal lahir Anda">
+		<label for="Agama">Agama</label>
+		<select id="Agama" name="Agama">
+			<option value="Islam">Islam</option>
+			<option value="Khatolik">Khatolik</option>
+			<option value="Kristen">Kristen</option>
+			<option value="Hindu">Hindu</option>
+			<option value="Budha">Budha</option>
+		</select>
+		<label for="jk">Jenis Kelamin</label>
+		<select id="jk" name="jk">
+			<option value="laki-laki">Laki-laki</option>
+			<option value="perempuan">Perempuan</option>
+		</select>
+		<label for="smt">Semester</label>
+		<select id="smt" name="smt">
+			<option value="I">I</option>
+			<option value="II">II</option>
+			<option value="III">III</option>
+			<option value="IV">IV</option>
+			<option value="V">V</option>
+			<option value="VI">VI</option>
+			<option value="VII">VII</option>
+			<option value="VIII">VIII</option>
+		</select>
+		<label for="Jurusan">Jurusan</label>
+		<select id="Jurusan" name="Jurusan">
+			<option value="Sistem Informasi">Sistem Informasi</option>
+			<option value="Teknologi Informasi">Teknologi Informasi</option>
+			<option value="Informasi">Informatika</option>
+		</select>
+		<label for="Fakultas">Fakultas</label>
+		<input type="text" id="Fakultas" name="Fakultas" placeholder="Masukan Fakultas Anda">
+		<label for="Alamat Kosan">Alamat Kosan</label>
+		<input type="text" id="Alamat Kosan" name="Alamat Kosan" placeholder="Masukan alamat tempat tinggal Anda saat ini">
+		<label for="Email">Email</label>
+		<input type="text" id="Email" name="Email" placeholder="Masukan Email Anda">
+		<label for="Hobbi">Hobbi</label>
+		<input type="text" id="Hobbi" name="Hobbi" placeholder="Masukan Hobbi Anda">
+		<label for="FB">Facebook</label>
+		<input type="text" id="FB" name="FB" placeholder="Masukan akun Facebook Anda">
+		<label for="Twitter">Twitter</label>
+		<input type="text" id="Twitter" name="Twitter" placeholder="Masukan akun Twitter Anda">
+		<label for="Motto">Motto Hidup </label>
+		<input type="text" id="Motto" name="Motto" placeholder="Masukan Motto Hidup Anda">
+		<label for="Pengalaman">Pengalaman Organisasi</label>
+		<input type="text" id="Pengalaman"name="Pengalaman" placeholder="Masukan Pengalaman Organisasi yang pernah Anda ikuti(Opsional)">
+
+		 <input type="submit" value="Submit">
+  </form>
+</div>
+</center>
+</body>
+</html>
